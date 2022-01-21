@@ -1,4 +1,3 @@
-import './App.css';
 import Header from './components/Header';
 import { Routes, Route } from "react-router-dom"
 import Photos from "./pages/Photos"
@@ -6,7 +5,7 @@ import Cart from "./pages/Cart"
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header />
       <Routes>
         <Route excact path="/" element={<Photos />} />
